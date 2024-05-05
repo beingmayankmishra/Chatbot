@@ -1,0 +1,187 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+    
+
+- intent: goodbye
+  examples: |
+    - cu
+    - okay
+    - thanks
+    - thank you
+    - right
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+- intent: ask_course_doubt 
+  examples: | 
+    - Can you help me with a doubt about dsa course?
+    - doubt regrading dsa course
+    - I have a question about dsa course. Can you assist?
+    - i need help about dsa course
+    - I need clarification on [course] content.
+    - I am confused about something in [course]. Can you explain?
+    - I am stuck on a problem in [course]. Can you give me some guidance?
+    - I need help understanding a concept in [course].
+    - Is there someone who can clarify a topic in [course] for me?
+    - I'm having trouble with [course]. Can you provide assistance?
+    - Could you shed some light on a topic in [course] for me?
+    - I am struggling to grasp a concept in [course]. Can you break it down?
+    - I'm looking for some help with [course].
+    - I have a question related to [course]. Can you help me out?
+    - I am facing an issue with [course]. Can you offer some support?
+
+
+- intent: ask_course_doubt_webdevelopment
+  examples: | 
+    - Can you help me with a doubt about web development course?
+    - doubt regrading webdevelopment course
+    - I have a question about webdev course. Can you assist?
+    - i need help about web dev course
+    - I need clarification on web development content.
+    - I am confused about something in [course]. Can you explain?
+    - I am stuck on a problem in [course]. Can you give me some guidance?
+    - I need help understanding a concept in [course].
+    - Is there someone who can clarify a topic in [course] for me?
+    - I'm having trouble with [course]. Can you provide assistance?
+    - Could you shed some light on a topic in [course] for me?
+    - I am struggling to grasp a concept in [course]. Can you break it down?
+    - I'm looking for some help with [course].
+    - I have a question related to [course]. Can you help me out?
+    - I am facing an issue with [course]. Can you offer some support?    
+
+
+
+
+
+
+
+
+
+- intent: ask_fee_structure
+  examples: |
+   - What is the fee structure for DSA course?
+   - dsa course fee
+   - Can you provide information about the fees for dsa course?
+   - How much does dsa cost?
+   - I'm interested in knowing the fees for course.
+   - Could you tell me the pricing details for [course]?
+   - What are the charges for enrolling in [course]?
+   - Do you have any information on the tuition fees for [course]?
+   - I'd like to inquire about the cost of [course].
+   - Is there a breakdown available for the fees associated with [course]?
+
+
+
+- intent: ask_fee_structure_webdevelopment
+  examples: |
+   - What is the fee structure for webdevelopment course?
+   - webdevelopment course fee
+   - what are the fee structure for web development course
+   - Can you provide information about the fees for web dev course?
+   - How much does webdevelopment cost?
+   - I'm interested in knowing the fees for development course.
+   - Could you tell me the pricing details for [course]?
+   - What are the charges for enrolling in [course]?
+   - Do you have any information on the tuition fees for [course]?
+   - I'd like to inquire about the cost of [course].
+   - Is there a breakdown available for the fees associated with [course]?
+
+
+
+
+
+
+- intent: ask_teacher_info
+  examples: |
+   - Can you tell me about the teacher for dsa course?
+   - Who is the instructor for webdevelopment course?
+   - Tell me about the faculty for course.  
+
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    -tum kya ho
+    -tumhe kisne banaya han
