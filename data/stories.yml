@@ -65,10 +65,26 @@ stories:
 
 
 
-- story: User asks about teacher info
+-  story: User asks unrelated question
+   steps:
+
+   - intent: ask_unrelated_doubt
+   - action: utter_ask_unrelated_doubt
+
+
+
+
+- story: User asks about webdevelopment teacher info
   steps:
   - intent: greet
   - action: utter_greet
   - intent: ask_teacher_info
   - action: utter_ask_teacher_info
+
+- story: User asks about dsa teacher info
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_teacher_info_dsacourse
+  - action: utter_ask_teacher_info_dsacourse  
  

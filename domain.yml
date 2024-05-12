@@ -13,6 +13,8 @@ intents:
   - ask_teacher_info
   - ask_course_doubt_webdevelopment
   - ask_fee_structure_webdevelopment
+  - ask_teacher_info_dsacourse
+  - ask_unrelated_doubt
 
 responses:
   utter_greet:
@@ -44,13 +46,19 @@ responses:
 
 
   utter_ask_fee_structure:
-  - text: "The fee structure for DSA course is 799 only."
+  - text: "The fee structure for DSA course is 799/- only."
 
   utter_ask_fee_structure_webdevelopment:
   - text: "The fee structure for WebDevelopment course is 1299/- only."
 
   utter_ask_teacher_info:
-  - text: "The teacher for [course] is [teacher_name]."
+  - text: "The teacher for webdevelopment is Anju mam."
+
+  utter_ask_teacher_info_dsacourse:
+  - text: "The teacher for DSA course is Rajat sir."
+
+  utter_ask_unrelated_doubt:
+  - text: " Sorry, I'm still in learning stage"
 
   
 

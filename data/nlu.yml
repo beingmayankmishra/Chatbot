@@ -47,13 +47,13 @@ nlu:
     - I am confused about something in [course]. Can you explain?
     - I am stuck on a problem in [course]. Can you give me some guidance?
     - I need help understanding a concept in [course].
-    - Is there someone who can clarify a topic in [course] for me?
+    - Is there someone who can clarify a topic in [dsa] for me?
     - I'm having trouble with [course]. Can you provide assistance?
     - Could you shed some light on a topic in [course] for me?
     - I am struggling to grasp a concept in [course]. Can you break it down?
     - I'm looking for some help with [course].
-    - I have a question related to [course]. Can you help me out?
-    - I am facing an issue with [course]. Can you offer some support?
+    - I have a question related to dsa. Can you help me out?
+    - I am facing an issue with dsa. Can you offer some support?
 
 
 - intent: ask_course_doubt_webdevelopment
@@ -118,9 +118,43 @@ nlu:
 
 - intent: ask_teacher_info
   examples: |
-   - Can you tell me about the teacher for dsa course?
+   - Can you tell me about the teacher for web development course?
    - Who is the instructor for webdevelopment course?
-   - Tell me about the faculty for course.  
+   - Tell me about the faculty for course web development.
+   - web dev faculty 
+   - development teacher
+   - teacher for web dev
+   - web development teacher
+    
+
+- intent: ask_teacher_info_dsacourse
+  examples: |
+   - Can you tell me about the teacher for dsa course?
+   - Who is the instructor for dsa course?
+   - Tell me about the faculty for  dsa course.   
+   - teacher for dsa course
+   - dsa teacher
+   - dsa faculty
+
+- intent: ask_unrelated_doubt
+  examples: |
+   - tell me about placement
+   - kurta pyajama   
+   - python course
+   - ml/ai
+   - ai course
+   - sir
+   - mam
+   - What's the weather like today?
+   - Can you recommend a good restaurant nearby?
+   - How do I reset my password for the platform?
+   - What's the capital of France?
+   - Do you know any good movies releasing this weekend?
+   - Can you help me with my math homework?
+   - What's the latest news about technology?
+   - How can I improve my English speaking skills?
+   - What's the best way to prepare for a job interview?
+   - Can you tell me a joke?
 
 
 
